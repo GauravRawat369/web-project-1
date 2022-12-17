@@ -1,0 +1,119 @@
+body{
+    
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(171, 223, 247);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+   /* background-color: rgb(103, 94, 94); */
+   overflow: hidden;
+}
+.topnav a{
+    
+    float: left;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;   /*this will remove underline*/
+    /* opacity: 0.6; */
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: black;
+    color: orangered;
+}
+nav{
+   display: inline;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding-left: 10%;
+   padding-right: 10px;
+}
+.logo{
+    color: orangered;
+}
+span{
+    color: white;
+}
+nav,ul,li{
+    list-style-type: none;
+    display: inline block;
+    padding: 10px,20px;
+}
+
+
+.center{
+    text-align: center;
+}
+
+label{
+    color:orangered;
+    font-size: 20px;
+}
+input[type=text] {
+    font-size: medium;
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+    border: 2px solid rgb(232, 27, 222);
+    background-color: #57e3f0;
+    border-radius: 4px;   
+    margin: 5px; 
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+
+input[type=text]:focus {
+    border-color: #57e3f0;
+    outline: none;
+    border: 2px solid rgb(232, 27, 222);
+}
+
+input[type=text]:hover{
+    border-color: #57e3f0;
+    transition: 0.7s;
+    background-color: rgb(232, 27, 222);
+    border-spacing: 10px;
+    border-radius: 10px;
+    width: 300px;
+
+
+}
+button{
+    border: 2px solid rgb(232, 27, 222);
+    background-color: rgb(86, 219, 240);
+    height: 5%;
+    width: 10%;
+    border-radius: 10px;
+    color:  black;
+}
+.submit-btn:hover{
+    background-color: rgb(232, 27, 222);
+    transition: 0.7s;
+    border-color: #57e3f0;
+}
+
+.new-button{
+    height: 100px;
+    width: 100px;
+    padding-right: 100px;
+    padding-bottom: 120px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 150px;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+.new-button:hover{
+    background-color: rgb(232, 27, 222);
+    border-color: #57e3f0; 
+    transform: scale(1.2) rotate(10deg);
+}
+
